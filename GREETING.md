@@ -1,1 +1,1 @@
-Hello there, thanks for stopping by!
+Hello, friend!
