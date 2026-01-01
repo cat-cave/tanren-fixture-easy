@@ -1,1 +1,1 @@
-Hello there, welcome to the project!
+Hello there, and welcome!
