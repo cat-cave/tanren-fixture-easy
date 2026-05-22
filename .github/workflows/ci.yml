@@ -1,0 +1,14 @@
+name: fixture-ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check fixture file
+        run: test -f README.md
