@@ -1,0 +1,15 @@
+# Easy-tier gate: a trivial, manifest-free check (the repo is a minimal fixture).
+version: 1
+tiers:
+  fast:
+    - name: readme-present
+      run: "test -f README.md"
+  slow:
+    - name: readme-present
+      run: "test -f README.md"
+when:
+  fast:
+    - per_iteration
+  slow:
+    - pre_audit
+    - pre_merge
