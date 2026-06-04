@@ -1,1 +1,1 @@
-Hello there, and welcome!
+Hello, friend!
